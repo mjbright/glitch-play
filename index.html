@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Hello!</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/preview.css">
+    <link rel="stylesheet" href="/style.css">
+    
+    <!-- import the webpage's javascript file -->
+    <script src="https://unpkg.com/markdown-it@^8/dist/markdown-it.js"></script>
+    <script src="https://unpkg.com/markdown-it-attrs@^2/markdown-it-attrs.browser.js"></script>
+    <script src="https://unpkg.com/pagedjs@0.1.31/dist/paged.js"></script>
+    <script src="https://unpkg.com/asciidoctor.js@1.5.9/dist/browser/asciidoctor.js"></script>
+    <script src="https://unpkg.com/js-yaml@3.13.0/dist/js-yaml.min.js"></script>
+    <script src="/script.js" type="module"></script>
+  </head>  
+  
+  <!-- import the book content -->
+  <!-- 1. data-source="page.md" -->
+  <!-- 2. data-source="page.asciidoc" -->
+  <body data-source="page.md"></body>
+</html>

@@ -1,0 +1,3 @@
+== Chapitre 4
+
+Ce contenu est présent dans le fichier `chapitre4.adoc`.
